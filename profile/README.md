@@ -55,16 +55,26 @@ Plugins developed, adapted, or maintained by third-party community developers. T
 
 ---
 
-## Software Registry Source for OMC & CPA
+## Software Registry Sources for OMC & CPA
 
-To subscribe to all official and community plugins in your Oh-My-CPA console or CLIProxyAPI gateway, use the registry endpoint:
+The ecosystem publishes two specialized sources (and one combined endpoint):
 
-```
-https://raw.githubusercontent.com/omc-community/omc-plugins/main/registry.json
-```
+- **Officially Maintained (`official.json`)**:
+  ```
+  https://raw.githubusercontent.com/omc-community/omc-plugins/main/official.json
+  ```
+- **Community Contributed (`community.json`)**:
+  ```
+  https://raw.githubusercontent.com/omc-community/omc-plugins/main/community.json
+  ```
+- **Combined All-in-One (`registry.json`)**:
+  ```
+  https://raw.githubusercontent.com/omc-community/omc-plugins/main/registry.json
+  ```
 
-- **Oh-My-CPA**: Enabled out of the box under **Settings → Plugins → Plugin Store**.
-- **CLIProxyAPI**: Add the URL above to `plugins.store-sources` in your `config.yaml`.
+### Usage
+- **Oh-My-CPA**: Subscribes to the combined source out of the box under **Settings → Plugins → Plugin Store**. You can add or toggle `official.json` and `community.json` individually.
+- **CLIProxyAPI**: Add any of the URLs above to `plugins.store-sources` in your `config.yaml`.
 
 ---
 
