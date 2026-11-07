@@ -44,6 +44,7 @@ Plugins maintained and supported directly by the core Oh-My-CPA team. They adher
 | [**omc-plugins**](https://github.com/omc-community/omc-plugins) | **Unified Plugin Registry** — The official registry source for Oh-My-CPA and CLIProxyAPI. |
 | [**omc-zcode-oauth**](https://github.com/omc-community/omc-zcode-oauth) | **ZCode OAuth Provider** — Dual-portal Z.ai / BigModel OAuth login, model routing, Anthropic Messages execution, and normalized quota. |
 | [**omc-qoder-oauth**](https://github.com/omc-community/omc-qoder-oauth) | **Qoder OAuth Provider** — Dual-portal Qoder and Qoder CN OAuth login, model discovery, OpenAI-compatible execution, and normalized quota. |
+| [**omc-workbuddy-oauth**](https://github.com/omc-community/omc-workbuddy-oauth) | **WorkBuddy OAuth Provider** — Dual-build WorkBuddy (China) and WorkBuddy AI (international) OAuth login, model discovery, OpenAI-compatible execution, and normalized quota. |
 
 ### 🤝 Community Contributed
 Plugins developed, adapted, or maintained by third-party community developers. These plugins are reviewed before inclusion in the registry and can be installed with one click from the OMC Plugin Store:
